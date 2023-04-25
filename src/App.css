@@ -1,0 +1,55 @@
+* {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 90px;
+
+  color: #c59d9b;
+}
+#input {
+  background-color: white;
+  height: 60px;
+  width: 500px;
+  border: white;
+  box-shadow: #dedede;
+  margin: auto;
+}
+::placeholder {
+  color: #828382;
+  font-size: 20px;
+  font-weight: normal;
+  font-weight: 600;
+}
+.box1 {
+  background-color: white;
+  margin: auto;
+  width: 500px;
+  height: 60px;
+  border: none;
+  display: flex;
+}
+ul li {
+  margin: auto;
+  background-color: white;
+  width: 460px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Del {
+  color: red;
+  font-weight: bolder;
+  font-size: larger;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
